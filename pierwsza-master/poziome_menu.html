@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Darmowy Kurs CSS</title>
+
+    <style>
+        /* wygląd elementu - ul */
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            border: 1px solid #000;
+        }
+
+        /* wygląd nieparzystych elementów - li elementu - ul */
+        ul>li:nth-child(odd) {
+            background-color: gold;
+        }
+
+        /* wygląd parzystych elementów - li elementu - ul */
+        ul>li:nth-child(even) {
+            background-color: lightblue;
+        }
+
+        ul>li {
+            float: left;
+        }
+
+        /* wygląd elementów - a */
+        ul>li>a {
+            display: block;
+            text-decoration: none;
+            color: #000;
+            /*            border: 1px solid #000;*/
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="#">link - 1</a></li>
+        <li><a href="#">link - 2</a></li>
+        <li><a href="#">link - 3</a></li>
+        to jest dodatkowa zawartość elementu - ul, którą w rzeczywistości nie należy tu umieszczać
+    </ul>
+
+</body></html>

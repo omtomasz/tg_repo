@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.wizytowka {
+    width: 50vw;
+    height: 50vh;
+
+    /*
+    min-height: 250px;
+    min-width: 350px;
+*/
+
+    border: 1px solid #111;
+    position: relative;
+    left: 25vh;
+    top: 25vh;
+    font-family: 'Tangerine', cursive;
+}
+
+
+
+div.black {
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+img {
+    height: 100%;
+    right: 13%;
+    top: 0;
+    position: absolute;
+
+
+}
+
+p {
+    color: #eee;
+
+}
+
+label {
+    color: #eee;
+}
+
+div.kontakt {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    bottom: 10%;
+    left: 6%;
+}
+
+a {
+    display: block;
+}
+
+div div p.kto {
+    z-index: 2;
+    position: absolute;
+    left: 34%;
+    top: 10%;
+}
+
+div div label.lubi {
+    z-index: 2;
+    position: absolute;
+    left: 33%;
+    top: 20%;
+}
+
+div div p.nielubi {
+    z-index: 2;
+    position: absolute;
+    left: 28%;
+    top: 30%;
+}
+
+div.moon {
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+    width: 70%;
+    right: 30%;
+    bottom: 0%;
+    background-image: url(moon1.png);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: 10% 24%;
+}

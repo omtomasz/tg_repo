@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Darmowy Kurs CSS</title>
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #CCC;
+            width: 250px;
+            box-shadow: 0 6px 6px -6px green;
+        }
+
+        ul li {
+            border-top: 1px solid #CCC;
+        }
+
+        /* wygląd pierwszego elementu - li */
+        ul li:first-child {
+            border-top: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            background-color: #EEE;
+            display: block;
+            padding: 10px;
+            color: #00A0AA;
+            text-shadow: 1px 1px 0 #FFF, 1px 2px 0 #AAA, 1px 2px 6px #AAA;
+            font-size: 18px;
+            border: 1px solid #FFF;
+            text-align: center;
+            background-image: url('mk.png');
+            background-repeat: repeat-x;
+            background-image: radial-gradient(ellipse at bottom, #FFF 40%, #DDD 100%);
+        }
+
+        ul li a:hover {
+            color: #ddd;
+            background-image: none;
+            background-color: #444;
+            text-shadow: 1px 1px 0 #000, 1px 2px 0 #AAA, 1px 2px 6px #AAA;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <ul>
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+        </ul>
+    </ul>
+
+</body>
+
+</html>

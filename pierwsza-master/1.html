@@ -1,0 +1,2331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Document</title>
+</head>
+
+<body>
+
+
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Wybierz jedną roślinę:
+                <select name="roslina">
+                    <option>truskawka</option>
+                    <option>jabłko</option>
+                    <option>kiwi</option>
+                    <option>arbuz</option>
+                    <option>róża</option>
+                    <option>tulipan</option>
+                    <option>marchew</option>
+                    <option>brokuły</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form>
+        Jakie jest Twoje imię? <input type="text">
+    </form>
+    <form>
+        Dlaczego Twoim ulubionym kwiatem jest ten, a nie inny kwiat? <textarea></textarea>
+    </form>
+    <form>
+        Jaki jest Twój ulubiony rodzaj muzyki?
+        <select>
+            <option>inny</option>
+            <option>rock</option>
+            <option>pop</option>
+            <option>techno</option>
+            <option>trance</option>
+        </select>
+    </form>
+    <form>
+        <p>
+            Jakie jest Twoje imię? <input type="text">
+        </p>
+
+        <p>
+            Jaki jest Twój ulubiony kwiat? <input type="text">
+        </p>
+
+        <p>
+            Jaki jest Twój ulubiony rodzaj muzyki?
+            <select>
+                <option>inny</option>
+                <option>rock</option>
+                <option>pop</option>
+                <option>techno</option>
+                <option>trance</option>
+            </select>
+        </p>
+    </form>
+    <form>
+        <p>
+            Jakie jest Twoje imię? <input type="text" name="imie">
+        </p>
+
+        <p>
+            Jaki jest Twój ulubiony kwiat? <input type="text" name="ulubiony-kwiat">
+        </p>
+
+        <p>
+            Jaki jest Twój ulubiony rodzaj muzyki?
+            <select name="rodzaj-muzyki">
+                <option>inny</option>
+                <option>rock</option>
+                <option>pop</option>
+                <option>techno</option>
+                <option>trance</option>
+            </select>
+        </p>
+    </form>
+    <!-- Ten element "input" posiada swoją nazwę -->
+    Jakie jest Twoje imię? <input type="text" name="imie">
+
+    <!-- Ten element "input" nie posiada swojej nazwy -->
+    Jaki jest Twój ulubiony kwiat? <input type="text">
+    Jaki jest Twój ulubiony kwiat?
+    <input type="text" name="ulubiony-kwiat" value="róża">
+    Dlaczego ten kwiat?
+    <textarea name="powod">ponieważ róża to symbol miłości</textarea>
+    Jaki jest Twój ulubiony rodzaj muzyki?
+    <select>
+        <option>inny</option>
+        <option>rock</option>
+        <option>pop</option>
+        <option>techno</option>
+        <option selected>trance</option>
+        <form>
+            <p>
+                Jaki jest Twój ulubiony kwiat? <input type="text" name="ulubiony-kwiat">
+            </p>
+
+            <p>
+                Dlaczego ten kwiat? <textarea name="powod"></textarea>
+            </p>
+
+            <p>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </p>
+        </form>
+
+    </select>
+    <form>
+        <p>
+            Jaki jest Twój ulubiony kwiat? <input type="text" name="ulubiony-kwiat">
+        </p>
+
+        <p>
+            Dlaczego ten kwiat? <textarea name="powod"></textarea>
+        </p>
+
+        <p>
+            Jaki jest Twój ulubiony rodzaj muzyki?
+            <select name="rodzaj-muzyki">
+                <option>inny</option>
+                <option>rock</option>
+                <option>pop</option>
+                <option>techno</option>
+                <option>trance</option>
+            </select>
+        </p>
+
+        <p>
+            <button type="reset">zresetuj</button>
+        </p>
+    </form>
+    <form>
+        Jakie jest Twoje imię? <input type="text" name="imie">
+        Jaki jest Twój kolor włosów? <input type="text" name="kolor-wlosow">
+        Jaki jest Twój ulubiony kwiat? <input type="text" name="ulubiony-kwiat">
+        Jaki jest Twój ulubiony kolor? <input type="text" name="ulubiony-kolor">
+    </form>
+
+    <form>
+        <label>
+            Jakie jest Twoje imię? <input type="text" name="imie">
+        </label>
+
+        <label>
+            Jaki jest Twój kolor włosów? <input type="text" name="kolor-wlosow">
+        </label>
+
+        <label>
+            Jaki jest Twój ulubiony kwiat? <input type="text" name="ulubiony-kwiat">
+        </label>
+
+        <label>
+            Jaki jest Twój ulubiony kolor? <input type="text" name="ulubiony-kolor">
+        </label>
+    </form>
+    <label for="dana-1">Jakie jest Twoje imię?</label>
+
+    <input type="text" name="imie" id="dana-1">
+    <form>
+        <label>
+            Jakie jest Twoje imię? <input type="text" name="imie">
+        </label>
+
+        <label>
+            Jakie jest Twoje nazwisko? <input type="text" name="nazwisko">
+        </label>
+    </form>
+
+    <!-- Drugi Formularz HTML -->
+    <form>
+        <label>
+            Jaki jest Twój ulubiony kwiat? <input type="text" name="ulubiony-kwiat">
+        </label>
+
+        <label>
+            Jaki jest Twój ulubiony kolor? <input type="text" name="ulubiony-kolor">
+        </label>
+    </form>
+    <form>
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Dlaczego ten kwiat?
+                <textarea name="powod"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </label>
+        </p>
+    </form>
+    <form>
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Dlaczego ten kwiat?
+                <textarea name="powod"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form>
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Dlaczego ten kwiat?
+                <textarea name="powod"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Dlaczego ten kwiat?
+                <textarea name="powod"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Dlaczego ten kwiat?
+                <textarea name="powod"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Dlaczego ten kwiat?
+                <textarea name="powod"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" method="get">
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Dlaczego ten kwiat?
+                <textarea name="powod"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" method="post">
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Dlaczego ten kwiat?
+                <textarea name="powod"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony rodzaj muzyki?
+                <select name="rodzaj-muzyki">
+                    <option>inny</option>
+                    <option>rock</option>
+                    <option>pop</option>
+                    <option>techno</option>
+                    <option>trance</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Wybierz plik:
+                <input type="file" name="plik">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" method="post">
+        <p>
+            <label>
+                Wybierz plik:
+                <input type="file" name="plik">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" method="post" enctype="multipart/form-data">
+        <p>
+            <label>
+                Wybierz plik:
+                <input type="file" name="plik">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Który owoc najbardziej lubisz?
+                <select name="ulubiony-owoc">
+                    <option>jabłko</option>
+                    <option>pomarańcz</option>
+                    <option>kiwi</option>
+                    <option>wiśnia</option>
+                    <option>truskawka</option>
+                    <option>banan</option>
+                    <option>malina</option>
+                    <option>czereśnia</option>
+                    <option>śliwka</option>
+                    <option>morela</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Które owoce najbardziej lubisz?
+                <select name="ulubione-owoce" multiple>
+                    <option>jabłko</option>
+                    <option>pomarańcz</option>
+                    <option>kiwi</option>
+                    <option>wiśnia</option>
+                    <option>truskawka</option>
+                    <option>banan</option>
+                    <option>malina</option>
+                    <option>czereśnia</option>
+                    <option>śliwka</option>
+                    <option>morela</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Które owoce najbardziej lubisz?
+                <select name="ulubione-owoce[]" multiple>
+                    <option>jabłko</option>
+                    <option>pomarańcz</option>
+                    <option>kiwi</option>
+                    <option>wiśnia</option>
+                    <option>truskawka</option>
+                    <option>banan</option>
+                    <option>malina</option>
+                    <option>czereśnia</option>
+                    <option>śliwka</option>
+                    <option>morela</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <datalist>
+        <option>czerwony</option>
+        <option>zielony</option>
+        <option>niebieski</option>
+        <option>czarny</option>
+        <option>biały</option>
+        <option>żółty</option>
+        <option>pomarańczowy</option>
+        <option>złoty</option>
+        <option>srebrny</option>
+        <option>brązowy</option>
+    </datalist>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj nazwę koloru:
+                <input type="text" name="nazwa-koloru" list="lista-kolorow">
+            </label>
+
+            <datalist id="lista-kolorow">
+                <option>czerwony</option>
+                <option>zielony</option>
+                <option>niebieski</option>
+                <option>czarny</option>
+                <option>biały</option>
+                <option>żółty</option>
+                <option>pomarańczowy</option>
+                <option>złoty</option>
+                <option>srebrny</option>
+                <option>brązowy</option>
+            </datalist>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat" autocomplete="off">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie" autofocus>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie" required>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj dowolny ciąg znaków:
+                <input type="text" name="ciag-znakow">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj dowolny ciąg znaków:
+                <input type="text" name="ciag-znakow" maxlength="10">
+                <small>(maksymalnie 10 znaków)</small>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj dowolny ciąg znaków:
+                <input type="text" name="ciag-znakow">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj dowolny ciąg znaków:
+                <input type="text" name="ciag-znakow" minlength="4">
+                <small>(minimalnie 4 znaki)</small>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj czterocyfrową liczbę:
+                <input type="text" name="liczba">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj czterocyfrową liczbę:
+                <input type="text" name="liczba" pattern="[0-9]{4}">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie" required>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Podaj dowolny ciąg znaków:
+                <input type="text" name="ciag-znakow" minlength="6" required>
+                <small>(minimalnie 6 znaków)</small>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Podaj czterocyfrową liczbę:
+                <input type="text" name="liczba" pattern="[0-9]{4}" required>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" novalidate>
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie" required>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Podaj dowolny ciąg znaków:
+                <input type="text" name="ciag-znakow" minlength="6" required>
+                <small>(minimalnie 6 znaków)</small>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Podaj czterocyfrową liczbę:
+                <input type="text" name="liczba" pattern="[0-9]{4}" required>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj czterocyfrową liczbę:
+                <input type="text" name="liczba" pattern="[0-9]{4}">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj czterocyfrową liczbę:
+                <input type="text" name="liczba" pattern="[0-9]{4}" placeholder="np. 1234">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Podaj kod dostępu:
+                <input type="text" name="kod">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Podaj kod dostępu:
+                <input type="text" name="kod" value="opcja wyłączona" disabled>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj imię:
+                <input type="text" name="imie">
+            </label>
+
+            <label>
+                <input type="text" value="np. Jan">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj imię:
+                <input type="text" name="imie">
+            </label>
+
+            <label>
+                <input type="text" value="np. Jan" readonly>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj imię:
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj imię:
+                <input type="text" name="imie" dirname="imie-kierunek">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj dowolny ciąg znaków:
+                <textarea name="ciag-znakow" cols="30">ze względu na to, iż ten ciąg znaków zawiera dużą liczbę znaków, ciąg ten nie mieści się w szerokości danego elementu "textarea", dlatego ciąg ten został kilkukrotnie przełamany oraz umieszczony w kilku wierszach</textarea>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Podaj dowolny ciąg znaków:
+                <textarea name="ciag-znakow" cols="30" wrap="hard">ze względu na to, iż ten ciąg znaków zawiera dużą liczbę znaków, ciąg ten nie mieści się w szerokości danego elementu "textarea", dlatego ciąg ten został kilkukrotnie przełamany oraz umieszczony w kilku wierszach</textarea>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" method="post">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" method="post">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit" formmethod="get">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Wybierz jedną roślinę:
+                <select name="roslina">
+                    <option>truskawka</option>
+                    <option>jabłko</option>
+                    <option>kiwi</option>
+                    <option>arbuz</option>
+                    <option>róża</option>
+                    <option>tulipan</option>
+                    <option>marchew</option>
+                    <option>brokuły</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Wybierz jedną roślinę:
+                <select name="roslina">
+                    <option>truskawka</option>
+                    <option>jabłko</option>
+                    <option>kiwi</option>
+                    <option>arbuz</option>
+                    <option selected>róża</option>
+                    <option>tulipan</option>
+                    <option>marchew</option>
+                    <option>brokuły</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Wybierz interesujące Cię rośliny:
+                <select name="rosliny[]" multiple>
+                    <option>truskawka</option>
+                    <option>jabłko</option>
+                    <option>kiwi</option>
+                    <option>arbuz</option>
+                    <option selected>róża</option>
+                    <option>tulipan</option>
+                    <option>marchew</option>
+                    <option>brokuły</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Wybierz interesujące Cię rośliny:
+                <select name="rosliny[]" multiple>
+                    <option value="opcja-1">truskawka</option>
+                    <option value="opcja-2">jabłko</option>
+                    <option value="opcja-3">kiwi</option>
+                    <option value="opcja-4">arbuz</option>
+                    <option value="opcja-5" selected>róża</option>
+                    <option value="opcja-6">tulipan</option>
+                    <option value="opcja-7">marchew</option>
+                    <option value="opcja-8">brokuły</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Wybierz interesujące Cię rośliny:
+                <select name="rosliny[]" multiple>
+                    <optgroup label="owoce">
+                        <option value="opcja-1">truskawka</option>
+                        <option value="opcja-2">jabłko</option>
+                        <option value="opcja-3">kiwi</option>
+                        <option value="opcja-4">arbuz</option>
+                    </optgroup>
+
+                    <optgroup label="kwiaty">
+                        <option value="opcja-5" selected>róża</option>
+                        <option value="opcja-6">tulipan</option>
+                    </optgroup>
+
+                    <optgroup label="warzywa">
+                        <option value="opcja-7">marchew</option>
+                        <option value="opcja-8">brokuły</option>
+                    </optgroup>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <input type="radio">
+    <p>
+        Który kolor wolisz?
+    </p>
+
+    <p>
+        <label>
+            <input type="radio"> Czerwony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="radio"> Zielony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="radio"> Niebieski
+        </label>
+    </p>
+    <p>
+        Który kolor wolisz?
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor"> Czerwony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor"> Zielony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor"> Niebieski
+        </label>
+    </p>
+    <p>
+        Który kolor wolisz?
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor"> Czerwony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor"> Zielony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor" checked> Niebieski
+        </label>
+    </p>
+    <p>
+        Który kolor wolisz?
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor" value="red"> Czerwony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor" value="green"> Zielony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="radio" name="kolor" value="blue" checked> Niebieski
+        </label>
+    </p>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            Który kolor wolisz?
+        </p>
+
+        <p>
+            <label>
+                <input type="radio" name="kolor" value="red"> Czerwony
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="radio" name="kolor" value="green"> Zielony
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="radio" name="kolor" value="blue" checked> Niebieski
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <input type="checkbox">
+    <input type="checkbox" checked>
+    <input type="checkbox" name="regulamin" checked>
+    <input type="checkbox" name="regulamin" value="true" checked>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                <input type="checkbox" name="regulamin" value="true" checked>
+                akceptuję regulamin
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+        <p>
+            Które kolory lubisz?
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor" value="red"> Czerwony
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor" value="green"> Zielony
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor" value="blue"> Niebieski
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor" value="black"> Czarny
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor" value="white"> Biały
+            </label>
+        </p>
+    </form>
+    <p>
+        Które kolory lubisz?
+    </p>
+
+    <p>
+        <label>
+            <input type="checkbox" name="kolor[]" value="red"> Czerwony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="checkbox" name="kolor[]" value="green"> Zielony
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="checkbox" name="kolor[]" value="blue"> Niebieski
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="checkbox" name="kolor[]" value="black"> Czarny
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input type="checkbox" name="kolor[]" value="white"> Biały
+        </label>
+    </p>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            Które kolory lubisz?
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor[]" value="red"> Czerwony
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor[]" value="green"> Zielony
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor[]" value="blue"> Niebieski
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor[]" value="black"> Czarny
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="kolor[]" value="white"> Biały
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <input type="text">
+    <input type="password">
+    <form action="https://webkod.pl/php/submit-result.php" method="post">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" method="post">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <input type="hidden" name="tajny-kod" value="1234567890">
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie" required>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kolor?
+                <input type="text" name="ulubiony-kolor">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <fieldset>
+            <legend>Dane wymagane</legend>
+            <p>
+                <label>
+                    Jakie jest Twoje imię?
+                    <input type="text" name="imie" required>
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dane niewymagane</legend>
+            <p>
+                <label>
+                    Jaki jest Twój ulubiony kwiat?
+                    <input type="text" name="ulubiony-kwiat">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Jaki jest Twój ulubiony kolor?
+                    <input type="text" name="ulubiony-kolor">
+                </label>
+            </p>
+        </fieldset>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit" name="zatwierdzony">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="reset">zresetuj</button>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+    <form action="https://webkod.pl/php/submit-result.php" id="formularz-1">
+        <p>
+            <label>
+                Jakie jest Twoje imię?
+                <input type="text" name="imie">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                Jaki jest Twój ulubiony kwiat?
+                <input type="text" name="ulubiony-kwiat">
+            </label>
+        </p>
+
+        <p>
+            <button type="submit">zatwierdź</button>
+        </p>
+    </form>
+
+    <p>
+        <label>
+            Jaki jest Twój ulubiony kolor?
+            <input type="text" name="ulubiony-kolor" form="formularz-1">
+        </label>
+    </p>
+    <p>
+        <label>
+            Jakie jest Twoje imię?
+            <input type="text" name="imie">
+        </label>
+    </p>
+
+    <p>
+        <label for="dana-1">Jaki jest Twój ulubiony kwiat?</label>
+        <input type="text" name="ulubiony-kwiat" id="dana-1">
+    </p>
+
+    <main>
+        <article>
+            <h1>Mój ulubiony kwiat</h1>
+            <p>Moim ulubionym kwiatem jest <b>róża</b>.</p>
+        </article>
+    </main>
+    <audio src="https://webkod.pl/files/html/utwor-01.mp3" controls></audio>
+    <audio src="https://webkod.pl/files/html/film-01.mp4" controls></audio>
+    <video src="https://webkod.pl/files/html/film-01.mp4" controls></video>
+    <video src="https://webkod.pl/files/html/utwor-01.mp3" controls></video>
+    <video src="https://webkod.pl/files/html/film-01.mp4"></video>
+    <video src="https://webkod.pl/files/html/film-01.mp4" controls></video>
+    <video src="https://webkod.pl/files/html/film-01.mp4" autoplay></video>
+    <video src="https://webkod.pl/files/html/film-01.mp4" controls autoplay muted loop></video>
+    <video src="https://webkod.pl/files/html/film-01.mp4" preload="none" controls></video>
+    <video src="https://webkod.pl/files/html/film-01.mp4" controls></video>
+    <video src="https://webkod.pl/files/html/film-01.mp4" poster="https://webkod.pl/files/html/film-01-okladka-01.png" controls></video>
+    <video src="https://webkod.pl/files/html/utwor-01.mp3" poster="https://webkod.pl/files/html/utwor-01-okladka-01.png" controls></video>
+    <audio controls>
+        <source src="https://webkod.pl/files/html/utwor-01.wav">
+        <source src="https://webkod.pl/files/html/utwor-01.ogg">
+        <source src="https://webkod.pl/files/html/utwor-01.mp3">
+    </audio>
+    <p>progres9.9</p>
+    <ol>
+        <li>Brzoskwinia</li>
+        <li>Czereśnia</li>
+        <li>Gruszka</li>
+        <li>Morela</li>
+        <li>Truskawka</li>
+    </ol>
+    <ul>
+        <li>Brzoskwinia</li>
+        <li>Czereśnia</li>
+        <li>Gruszka</li>
+        <li>Truskawka</li>
+        <li>Morela</li>
+    </ul>
+    <dl>
+        <dt>Jaki jest mój ulubiony kolor?</dt>
+        <dd>Moim ulubionym kolorem jest kolor błękitny.</dd>
+
+        <dt>Jakie jest moje ulubione zwierzę?</dt>
+        <dd>Moim ulubionym zwierzęciem jest lew.</dd>
+
+        <dt>Jaki jest mój ulubiony owoc?</dt>
+        <dd>Moim ulubionym owocem jest czereśnia.</dd>
+
+        <dt>Jaki jest mój ulubiony kwiat?</dt>
+        <dd>Moim ulubionym kwiatem jest róża.</dd>
+    </dl>
+    <dl>
+        <dt>Czym jest zamek?</dt>
+        <dd>Zamek jest budowlą.</dd>
+        <dd>Zamek jest mechanizmem występującym w odzieży.</dd>
+        <dd>Zamek jest mechanizmem występującym w drzwiach.</dd>
+
+        <dt>Czym jest serce?</dt>
+        <dd>Serce to organ istot żywych.</dd>
+        <dd>Serce to symbol miłości.</dd>
+    </dl>
+    <table>
+        <tr>
+            <td>czereśnia</td><!-- pierwsza komórka pierwszego wiersza -->
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>czereśnia</td><!-- pierwsza komórka pierwszego wiersza -->
+            <td>seler</td><!-- druga komórka pierwszego wiersza -->
+            <td>sosna</td><!-- trzecia komórka pierwszego wiersza -->
+            <td>róża</td><!-- czwarta komórka pierwszego wiersza -->
+        </tr>
+
+    </table>
+    <table border>
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <td>czereśnia</td><!-- pierwsza komórka pierwszego wiersza -->
+            <td>seler</td><!-- druga komórka pierwszego wiersza -->
+            <td>sosna</td><!-- trzecia komórka pierwszego wiersza -->
+            <td>róża</td><!-- czwarta komórka pierwszego wiersza -->
+        </tr>
+
+        <tr>
+            <td>jabłko</td><!-- pierwsza komórka drugiego wiersza -->
+            <td>marchew</td><!-- druga komórka drugiego wiersza -->
+            <td>dąb</td><!-- trzecia komórka drugiego wiersza -->
+            <td>tulipan</td><!-- czwarta komórka drugiego wiersza -->
+        </tr>
+
+        <tr>
+            <td>gruszka</td><!-- pierwsza komórka trzeciego wiersza -->
+            <td>rzodkiewka</td><!-- druga komórka trzeciego wiersza -->
+            <td>świerk</td><!-- trzecia komórka trzeciego wiersza -->
+            <td>słonecznik</td><!-- czwarta komórka trzeciego wiersza -->
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <td>czereśnia</td>
+            <td></td><!-- pierwsza pusta komórka -->
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td></td><!-- druga pusta komórka -->
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td></td><!-- trzecia pusta komórka -->
+            <td></td><!-- czwarta pusta komórka -->
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td>dąb</td>
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td>świerk</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>owoce</th>
+            <th>warzywa</th>
+            <th>drzewa</th>
+            <th>kwiaty</th>
+        </tr>
+
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td>dąb</td>
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td>świerk</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>owoce</th>
+            <th>warzywa</th>
+            <th>drzewa</th>
+            <th>kwiaty</th>
+        </tr>
+
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td>dąb</td>
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td>świerk</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>owoce</th>
+            <th>warzywa</th>
+            <th scope="col">drzewa</th>
+            <th>kwiaty</th>
+        </tr>
+
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td>dąb</td>
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td>świerk</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>owoce</th>
+            <td>czereśnia</td>
+            <td>jabłko</td>
+            <td>gruszka</td>
+        </tr>
+
+        <tr>
+            <th>warzywa</th>
+            <td>seler</td>
+            <td>marchew</td>
+            <td>rzodkiewka</td>
+        </tr>
+
+        <tr>
+            <th>drzewa</th>
+            <td>sosna</td>
+            <td>dąb</td>
+            <td>świerk</td>
+        </tr>
+
+        <tr>
+            <th>kwiaty</th>
+            <td>róża</td>
+            <td>tulipan</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>owoce</th>
+            <td>czereśnia</td>
+            <td>jabłko</td>
+            <td>gruszka</td>
+        </tr>
+
+        <tr>
+            <th>warzywa</th>
+            <td>seler</td>
+            <td>marchew</td>
+            <td>rzodkiewka</td>
+        </tr>
+
+        <tr>
+            <th scope="row">drzewa</th>
+            <td>sosna</td>
+            <td>dąb</td>
+            <td>świerk</td>
+        </tr>
+
+        <tr>
+            <th>kwiaty</th>
+            <td>róża</td>
+            <td>tulipan</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>owoce</th>
+            <th>warzywa</th>
+            <th>drzewa</th>
+            <th>kwiaty</th>
+        </tr>
+
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td>dąb</td>
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td>świerk</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <caption>Rośliny Świata</caption>
+
+        <tr>
+            <th>owoce</th>
+            <th>warzywa</th>
+            <th>drzewa</th>
+            <th>kwiaty</th>
+        </tr>
+
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td>dąb</td>
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td>świerk</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <caption>Rośliny Świata</caption>
+
+        <tr>
+            <th>owoce</th>
+            <th>warzywa</th>
+            <th>drzewa</th>
+            <th>kwiaty</th>
+        </tr>
+
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td>dąb</td>
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td>świerk</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <caption>Rośliny Świata</caption>
+
+        <thead>
+            <tr>
+                <th>owoce</th>
+                <th>warzywa</th>
+                <th>drzewa</th>
+                <th>kwiaty</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <td>czereśnia</td>
+            <td>seler</td>
+            <td>sosna</td>
+            <td>róża</td>
+        </tr>
+
+        <tr>
+            <td>jabłko</td>
+            <td>marchew</td>
+            <td>dąb</td>
+            <td>tulipan</td>
+        </tr>
+
+        <tr>
+            <td>gruszka</td>
+            <td>rzodkiewka</td>
+            <td>świerk</td>
+            <td>słonecznik</td>
+        </tr>
+    </table>
+    <table border>
+        <caption>Rośliny Świata</caption>
+
+        <thead>
+            <tr>
+                <th>owoce</th>
+                <th>warzywa</th>
+                <th>drzewa</th>
+                <th>kwiaty</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>czereśnia</td>
+                <td>seler</td>
+                <td>sosna</td>
+                <td>róża</td>
+            </tr>
+
+            <tr>
+                <td>jabłko</td>
+                <td>marchew</td>
+                <td>dąb</td>
+                <td>tulipan</td>
+            </tr>
+
+            <tr>
+                <td>gruszka</td>
+                <td>rzodkiewka</td>
+                <td>świerk</td>
+                <td>słonecznik</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border>
+        <caption>Rośliny Świata</caption>
+
+        <thead>
+            <tr>
+                <th>owoce</th>
+                <th>warzywa</th>
+                <th>drzewa</th>
+                <th>kwiaty</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>czereśnia</td>
+                <td>seler</td>
+                <td>sosna</td>
+                <td>róża</td>
+            </tr>
+
+            <tr>
+                <td>jabłko</td>
+                <td>marchew</td>
+                <td>dąb</td>
+                <td>tulipan</td>
+            </tr>
+
+            <tr>
+                <td>gruszka</td>
+                <td>rzodkiewka</td>
+                <td>świerk</td>
+                <td>słonecznik</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="4">moje ulubione rośliny</th>
+            </tr>
+
+            <tr>
+                <td>czereśnia</td>
+                <td>rzodkiewka</td>
+                <td>dąb</td>
+                <td>róża</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table border>
+        <tr>
+            <th>Kolumna A</th>
+            <th>Kolumna B</th>
+            <th>Kolumna C</th>
+            <th>Kolumna D</th>
+            <th>Kolumna E</th>
+        </tr>
+
+        <tr>
+            <td>Komórka 1A</td>
+            <td>Komórka 1B</td>
+            <td>Komórka 1C</td>
+            <td>Komórka 1D</td>
+            <td>Komórka 1E</td>
+        </tr>
+
+        <tr>
+            <td>Komórka 2A</td>
+            <td>Komórka 2B</td>
+            <td>Komórka 2C</td>
+            <td>Komórka 2D</td>
+            <td>Komórka 2E</td>
+        </tr>
+
+        <tr>
+            <td>Komórka 3A</td>
+            <td>Komórka 3B</td>
+            <td>Komórka 3C</td>
+            <td>Komórka 3D</td>
+            <td>Komórka 3E</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>Kolumna A</th>
+            <th>Kolumna B</th>
+            <th>Kolumna C</th>
+            <th>Kolumna D</th>
+            <th>Kolumna E</th>
+        </tr>
+
+        <tr>
+            <td>Komórka 1A</td>
+            <td>Komórka 1B</td>
+            <td>Komórka 1C</td>
+            <td>Komórka 1D</td>
+            <td>Komórka 1E</td>
+        </tr>
+
+        <tr>
+            <td>Komórka 2A</td>
+            <td colspan="3">Komórka 2B</td>
+            <!-- <td>Komórka 2C</td> -->
+            <!-- <td>Komórka 2D</td> -->
+            <td>Komórka 2E</td>
+        </tr>
+
+        <tr>
+            <td>Komórka 3A</td>
+            <td>Komórka 3B</td>
+            <td>Komórka 3C</td>
+            <td>Komórka 3D</td>
+            <td>Komórka 3E</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>Wiersz A</th>
+            <td>Komórka 1A</td>
+            <td>Komórka 2A</td>
+            <td>Komórka 3A</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz B</th>
+            <td>Komórka 1B</td>
+            <td>Komórka 2B</td>
+            <td>Komórka 3B</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz C</th>
+            <td>Komórka 1C</td>
+            <td>Komórka 2C</td>
+            <td>Komórka 3C</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz D</th>
+            <td>Komórka 1D</td>
+            <td>Komórka 2D</td>
+            <td>Komórka 3D</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz E</th>
+            <td>Komórka 1E</td>
+            <td>Komórka 2E</td>
+            <td>Komórka 3E</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>Wiersz A</th>
+            <td>Komórka 1A</td>
+            <td>Komórka 2A</td>
+            <td>Komórka 3A</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz B</th>
+            <td>Komórka 1B</td>
+            <td rowspan="3">Komórka 2B</td>
+            <td>Komórka 3B</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz C</th>
+            <td>Komórka 1C</td>
+            <!-- <td>Komórka 2C</td> -->
+            <td>Komórka 3C</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz D</th>
+            <td>Komórka 1D</td>
+            <!-- <td>Komórka 2D</td> -->
+            <td>Komórka 3D</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz E</th>
+            <td>Komórka 1E</td>
+            <td>Komórka 2E</td>
+            <td>Komórka 3E</td>
+        </tr>
+    </table>
+    <table border>
+        <tr>
+            <th>Wiersz A</th>
+            <td>Komórka 1A</td>
+            <td>Komórka 2A</td>
+            <td>Komórka 3A</td>
+        </tr>
+
+        <tr>
+            <th>Wiersz B</th>
+            <td>Komórka 1B</td>
+            <td colspan="2" rowspan="3">Komórka 2B</td>
+            <!-- <td>Komórka 3B</td> -->
+        </tr>
+
+        <tr>
+            <th>Wiersz C</th>
+            <td>Komórka 1C</td>
+            <!-- <td>Komórka 2C</td> -->
+            <!-- <td>Komórka 3C</td> -->
+        </tr>
+
+        <tr>
+            <th>Wiersz D</th>
+            <td>Komórka 1D</td>
+            <!-- <td>Komórka 2D</td> -->
+            <!-- <td>Komórka 3D</td> -->
+        </tr>
+
+        <tr>
+            <th>Wiersz E</th>
+            <td>Komórka 1E</td>
+            <td>Komórka 2E</td>
+            <td>Komórka 3E</td>
+        </tr>
+    </table>
+    <table border>
+        <caption>Grupowanie Roślin Świata Według Koloru</caption>
+
+        <thead>
+            <tr>
+                <th>czerwone</th>
+                <th>rośliny świata</th>
+                <th>zielone</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>truskawka</td>
+                <th>owoce</th>
+                <td>kiwi</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td>pomidor</td>
+                <th>warzywa</th>
+                <td>ogórek</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border>
+        <caption>Grupowanie Roślin Świata Według Koloru</caption>
+
+        <thead>
+            <tr>
+                <th id="red">czerwone</th>
+                <th id="all">rośliny świata</th>
+                <th id="green">zielone</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>truskawka</td>
+                <th headers="red all green">owoce</th>
+                <td>kiwi</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td>pomidor</td>
+                <th>warzywa</th>
+                <td>ogórek</td>
+            </tr>
+        </tbody>
+    </table>
+    <article>
+        <!-- element "p" może być elementem dzieckiem elementu "article" -->
+        <header>
+            <!-- element "p" może być elementem dzieckiem elementu "header" -->
+            <h1>Mój ulubiony kolor</h1><!-- element "p" może być elementem dzieckiem elementu "h1" -->
+        </header>
+
+        <p>
+            Moim ulubionym kolorem jest kolor błękitny.
+        </p>
+
+        <p>
+            Ponieważ błękitny to kolor nieba.
+        </p>
+
+        <footer>
+            <!-- element "p" może być elementem dzieckiem elementu "footer" -->
+            <address>
+                <!-- element "p" może być elementem dzieckiem elementu "address" -->
+                jankowalski@mail.com
+            </address>
+        </footer>
+    </article>
+
+    <ul class="tooltip_css3_d4">
+        <li data-tooltip-1="Dział - 1" data-tooltip-2="W tym dziale zostały przedstawione oraz wyjaśnione różne zagadnienia języka CSS. Każdy, kto chce się nauczyć czegoś o języku CSS, powinien się z nimi zapoznać.">
+            <a href="#"><span>Dział - 1</span></a>
+        </li>
+
+        <li data-tooltip-1="Dział - 2" data-tooltip-2="W tym dziale zostały przedstawione oraz wyjaśnione różne zagadnienia języka CSS. Każdy, kto chce się nauczyć czegoś o języku CSS, powinien się z nimi zapoznać.">
+            <a href="#"><span>Dział - 2</span></a>
+        </li>
+
+        <li data-tooltip-1="Dział - 3" data-tooltip-2="W tym dziale zostały przedstawione oraz wyjaśnione różne zagadnienia języka CSS.">
+            <a href="#"><span>Dział - 3</span></a>
+        </li>
+
+        <li data-tooltip-1="Dział - 4" data-tooltip-2="W tym dziale zostały przedstawione oraz wyjaśnione różne zagadnienia języka CSS. Każdy, kto chce się nauczyć czegoś o języku CSS, powinien się z nimi zapoznać. Każdy, kto chce się nauczyć czegoś o języku CSS, powinien się z nimi zapoznać.">
+            <a href="#"><span>Dział - 4</span></a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
